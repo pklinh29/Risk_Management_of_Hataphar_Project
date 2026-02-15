@@ -62,8 +62,8 @@ This phase marks the transition from qualitative screening to quantitative deep 
   ![Machine age impact](https://github.com/pklinh29/Risk_Management_of_Hataphar_Project/blob/c777832997d4f17438c8e2453a5c7359df0e50e9/Machine%20Age%20Impact)
 
 * **a standardized Risk Heatmap to rank and prioritize risks:**
-* ![Heatmap](https://github.com/pklinh29/Risk_Management_of_Hataphar_Project/blob/c777832997d4f17438c8e2453a5c7359df0e50e9/HeatMap)
-
+ ![Heatmap](https://github.com/pklinh29/Risk_Management_of_Hataphar_Project/blob/c777832997d4f17438c8e2453a5c7359df0e50e9/HeatMap)
+  
 * **Refer to:**  *Risk_Management_Hataphar.ipynb*
   
 #### Step 4: Treat or Address The Risk
