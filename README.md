@@ -1,5 +1,4 @@
-# Data-Driven Corporate Risk Portfolio: Strategy & Monte Carlo Simulation
-
+# Data Project : Risk_Management_of_Hataphar_Project
 
 ## Table of Contents
 - [Context](#context)
@@ -24,7 +23,7 @@ This project was initiated with a broad exploratory objective: to systematically
 
 To ensure the project aligns perfectly with business objectives rather than just being a coding exercise, I adopted a **Bottom-Up Approach**:
 
-1. **Defining the Output First:** The end goal was clearly defined: a future risk forecast using Monte Carlo simulation, a machine age impact forecast (ML discovery), and a standardized Risk Heatmap to rank and prioritize risks.
+1. **Defining the Output First:** The end goal was clearly defined: a future risk forecast using Monte Carlo simulation, a machine age impact forecast (ML discovery), a standardized Risk Heatmap to rank and prioritize risks, and ultimately, a data-backed Root Cause Analysis (Fishbone/4M) followed by a concrete 4T Treatment Plan (Treat, Transfer, Tolerate, Terminate).
 2. **Strategic Data Collection:** Before writing any code, I conducted rigorous strategic data collection to build the Initial Risk Register. This involved:
    * **PESTLE Analysis:** To capture macro-environmental threats (Political, Economic, Social, Technological, Legal, Environmental).
    * **Porter’s 5 Forces:** To assess industry-level and market-driven risks.
