@@ -35,8 +35,8 @@ To ensure the project aligns perfectly with business objectives rather than just
 
 The project workflow is structured into 4 main phases based on modern ISO 31000 Risk Management standards, bridging qualitative strategy with quantitative Data Science.
 
-
-### 📋 Workflow Execution
+![Risk Flow](Ảnh màn hình 2026-02-15 lúc 09.56.45.png)
+### Workflow Execution
 
 #### Step 1: Identify Risks
 Utilized strategic analysis tools to establish a **Comprehensive Risk Register**:
