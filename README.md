@@ -36,42 +36,6 @@ To ensure the project aligns perfectly with business objectives rather than just
 
 ---
 
-## 🚀 Implementation <a name="implementation"></a>
-
-This project seamlessly bridges qualitative strategic frameworks with quantitative Data Science.
-
-### Project Flowchart
-*(Workflow diagram illustrating the end-to-end ISO 31000 Risk Management process)*
-![Project Flowchart](assets/flowchart.png) 
-*(Note: Upload your draw.io exported image to `assets/flowchart.png` in the repository)*
-
-### Step-by-Step Execution:
-
-**Step 1: Strategic Risk Identification & Scoping (The Filter)**
-* **Tool:** Expert Judgment / Excel Risk Register.
-* **Execution:** Synthesized the PESTLE and Value Chain outputs into a list of 11 initial risks. Through a filtering process based on "Data Availability" and "Frequency of Occurrence", I selected **OP1: Production Delay Risk** as the primary candidate for quantitative simulation. The remaining critical risks (R2-R5) were retained for qualitative expert assessment to provide a complete portfolio context.
-
-**Step 2: Black-Box Historical Data Generation**
-* **Tool:** `NumPy`, `Pandas` (Python).
-* **Execution:** Simulated 5,000 records of raw ERP data. I deliberately avoided hard-coding a "hidden formula". Instead, I generated independent variables reflecting a degraded factory state (`Machine_Age` 5-15 years, `Worker_Skill`) and injected real-world variance and noise. This creates a realistic, messy dataset mirroring actual manufacturing execution systems.
-
-**Step 3: Machine Learning Root Cause Discovery**
-* **Tool:** `Scikit-Learn` (Linear Regression).
-* **Execution:** Fed the simulated ERP data into a Machine Learning model to autonomously "discover" causal relationships. The model mathematically quantified that increasing *Machine Age* heavily delays batch release times, whereas higher *Worker Skill* accelerates it.
-
-**Step 4: Future Risk Forecasting (Monte Carlo Simulation)**
-* **Tool:** `SciPy`, `NumPy`.
-* **Execution:** Simulated 10,000 production batches for the upcoming fiscal year. I applied a "Dynamic Shift" scenario (aging the machinery by 1 year: Age 6-16) to see what happens if the company does nothing. Using the ML formula, I calculated the exact Probability of Failure (1-CDF) against our critical 74-minute threshold, resulting in a **~14% Risk Probability**.
-
-**Step 5: Visualizing the Managerial Dashboard**
-* **Tool:** `Matplotlib`, `Seaborn`.
-* **Execution:** Translated the 14% statistical probability into a standard Likelihood Score (Level 3 - Possible). I then plotted this dynamic quantitative risk (OP1 - Red) alongside the static qualitative risks (R2-R5 - Diverse colors) onto a unified Corporate Risk Heatmap, clearly showing OP1 in the Unacceptable Zone.
-
-**Step 6: Risk Treatment & Continuous Monitoring**
-* **Tool:** Fishbone Diagram (4M/4P), 4T Framework.
-* **Execution:** Proposed actionable *Treat* strategies targeting the ML-discovered root causes: Predictive Maintenance (for Age) and Cross-Training (for Skill). Established a feedback loop to monitor the Key Risk Indicator (Batch Release Time) and re-simulate the model every 6 months to verify the effectiveness of the solutions.
-
----
 
 ## 💎 Business Value Achievements <a name="business-value-achievements"></a>
 
