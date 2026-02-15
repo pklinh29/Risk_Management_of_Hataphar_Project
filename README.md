@@ -19,7 +19,7 @@ This project was initiated with a broad exploratory objective: to systematically
 
 ---
 
-## 🛠️ Preparation <a name="preparation"></a>
+## Preparation <a name="preparation"></a>
 
 To ensure the project aligns perfectly with business objectives rather than just being a coding exercise, I adopted a **Bottom-Up Approach**:
 
