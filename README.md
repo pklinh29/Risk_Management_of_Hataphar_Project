@@ -51,6 +51,7 @@ This phase marks the transition from qualitative screening to quantitative deep 
   * *Historical Data Generation:* Processed and simulated historical manufacturing data using `NumPy` and `Pandas`.
   * *Machine Learning Root Cause Discovery:* Deployed `Scikit-Learn` (Regression) to mathematically discover the primary variables driving the delays (e.g., Machine Age, Worker Skill).
   * *Future Risk Simulation:* Ran a **Monte Carlo Simulation** (10,000 iterations) using `SciPy` and `NumPy` to forecast the precise probability of future SLA failures under an aging equipment scenario.
+  * **Refer to:**  *Risk_Management_Hataphar.ipynb*
 
 #### Step 3: Evaluate or Rank the Risk
 * **Visualizing The Dashboard:** Translated the complex statistical outputs (like 1-CDF probabilities) into intuitive visual formats (`Matplotlib`/`Seaborn`). Plotted the dynamic quantitative risk alongside qualitative risks onto a unified Corporate Risk Heatmap to evaluate severity and likelihood.
@@ -63,7 +64,8 @@ This phase marks the transition from qualitative screening to quantitative deep 
 * **a standardized Risk Heatmap to rank and prioritize risks:**
 * ![Heatmap](https://github.com/pklinh29/Risk_Management_of_Hataphar_Project/blob/c777832997d4f17438c8e2453a5c7359df0e50e9/HeatMap)
 
-
+* **Refer to:**  *Risk_Management_Hataphar.ipynb*
+  
 #### Step 4: Treat or Address The Risk
 Designed specific, actionable intervention measures:
 * **Impact Assessment:** Evaluated the potential damage across financial, reputational, and operational dimensions.
