@@ -1,4 +1,4 @@
-# Data Project : Risk_Management_of_Hataphar_Project
+# Data Project : Risk Management of Hataphar
 
 ## Table of Contents
 - [Context](#context)
