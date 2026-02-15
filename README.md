@@ -1,11 +1,7 @@
 # Data-Driven Corporate Risk Portfolio: Strategy & Monte Carlo Simulation
 
-![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
-![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Scikit--Learn-orange)
-![Simulation](https://img.shields.io/badge/Simulation-Monte%20Carlo-success)
-![Risk Management](https://img.shields.io/badge/Strategy-PESTLE%20%7C%20Value%20Chain-yellow)
 
-## 📑 Table of Contents
+## Table of Contents
 - [Context](#context)
 - [Preparation](#preparation)
 - [Implementation](#implementation)
@@ -18,9 +14,9 @@
 
 In the highly regulated and volatile pharmaceutical manufacturing industry, enterprises face a barrage of risks from multiple fronts. Externally, macro-economic shocks, strict regulatory updates (e.g., EU-GMP compliance), and supply chain disruptions constantly threaten stability. Internally, aging infrastructure and human skill gaps create operational bottlenecks. Left unchecked, these risks compound, leading to severe SLA penalties, loss of market share, and critical reputational damage.
 
-The **Chief Risk Officer (CRO) / Plant Manager** requires a holistic, bird's-eye view of the *entire* corporate risk landscape to effectively allocate the annual mitigation budget. While the company's risk portfolio contains various qualitative risks (e.g., Tender Failures, Regulatory Inspections), the core operational risk—**OP1: Production Delay**—is highly dynamic, measurable, and directly controllable. 
+The Chief Risk Officer (CRO) requires a holistic, bird's-eye view of the entire corporate risk landscape to effectively allocate the annual mitigation budget and prioritize interventions.
 
-I initiated this project to provide executive management with a comprehensive **Corporate Risk Heatmap** that captures all identified risks, while applying advanced, data-driven quantitative simulation exclusively to the operational bottleneck (OP1) that we have the power to change.
+This project was initiated with a broad exploratory objective: to systematically map out Hataphar's entire risk portfolio using strategic business frameworks (PESTLE, 5 Forces, Value Chain). However, the ultimate goal was not just to list risks qualitatively, but to identify the most critical operational bottleneck that could be optimized using data-driven, quantitative simulation.
 
 ---
 
@@ -76,7 +72,7 @@ To ensure continuous improvement, the project established a post-treatment frame
 * **Review:** Proposed a periodic evaluation system (running the simulation script every 6 months) to mathematically verify the effectiveness of the deployed solutions.
 
 ---
-## 💎 Business Value Achievements <a name="business-value-achievements"></a>
+## Business Value Achievements <a name="business-value-achievements"></a>
 
 This project delivers exactly what executive management expects from a robust Enterprise Risk Management (ERM) initiative:
 
@@ -91,9 +87,9 @@ This project delivers exactly what executive management expects from a robust En
 
 Through the execution of this end-to-end project, I have developed a practical understanding of how data science can solve real-world operational challenges. Key takeaways include:
 
-1.Bridging Strategic Frameworks with Data Science: Learned how to transition from high-level qualitative business analysis (PESTLE, Porter’s 5 Forces, Value Chain) into actionable quantitative models, realizing that data science is most powerful when guided by business context.
+**1.Bridging Strategic Frameworks with Data Science:** Learned how to transition from high-level qualitative business analysis (PESTLE, Porter’s 5 Forces, Value Chain) into actionable quantitative models, realizing that data science is most powerful when guided by business context.
 
-2.Deepening Proficiency in Simulation & Machine Learning: Gained hands-on experience in using Python libraries to decode operational bottlenecks:
+**2.Deepening Proficiency in Simulation & Machine Learning:** Gained hands-on experience in using Python libraries to decode operational bottlenecks:
 
   - Utilized NumPy and Pandas to process and simulate complex historical data environments.
   
@@ -101,8 +97,8 @@ Through the execution of this end-to-end project, I have developed a practical u
   
   - Employed SciPy and NumPy to run Monte Carlo simulations (10,000 iterations), shifting my analytical perspective from deterministic ("what happened") to probabilistic ("what is the likelihood of failure").
 
-3.Cultivating a Strong Risk Management Mindset: Adopted the comprehensive ISO 31000 framework, understanding that Risk Management is an iterative cycle (Identify → Analyze → Evaluate → Treat → Monitor), rather than a one-time calculation.
+**3.Cultivating a Strong Risk Management Mindset**: Adopted the comprehensive ISO 31000 framework, understanding that Risk Management is an iterative cycle (Identify → Analyze → Evaluate → Treat → Monitor), rather than a one-time calculation.
 
-4.Refining Executive Communication via Data Visualization: Improved my ability to translate complex statistical outputs (such as 1-CDF probabilities) into intuitive, standard corporate formats (1-5 Likert scales). I practiced using Matplotlib and Seaborn to design a unified Risk Portfolio Heatmap that communicates severity clearly to non-technical stakeholders (e.g., the C-suite).
+**4.Refining Executive Communication via Data Visualization:** Improved my ability to translate complex statistical outputs (such as 1-CDF probabilities) into intuitive, standard corporate formats (1-5 Likert scales). I practiced using Matplotlib and Seaborn to design a unified Risk Portfolio Heatmap that communicates severity clearly to non-technical stakeholders (e.g., the C-suite).
 
 ---
