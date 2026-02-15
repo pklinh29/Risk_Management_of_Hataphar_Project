@@ -34,7 +34,7 @@ To ensure the project aligns perfectly with business objectives rather than just
 
 The project workflow is structured into 4 main phases based on modern ISO 31000 Risk Management standards, bridging qualitative strategy with quantitative Data Science.
 
-![Risk Flow](https://github.com/pklinh29/Risk_Management_of_Hataphar_Project/blob/9295975b164d3e2d350f5d472a2087e1b48edb2e/A%CC%89nh%20ma%CC%80n%20hi%CC%80nh%202026-02-15%20lu%CC%81c%2009.56.45.png)
+![Risk Flow](https://github.com/pklinh29/Risk_Management_of_Hataphar_Project/blob/82460857472b43b7c7846f8681074c2a378623b4/A%CC%89nh%20ma%CC%80n%20hi%CC%80nh%202026-02-15%20lu%CC%81c%2013.58.43.png)
 ### Workflow Execution
 
 #### Step 1: Identify Risks
