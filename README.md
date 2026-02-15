@@ -56,7 +56,7 @@ This phase marks the transition from qualitative screening to quantitative deep 
 #### Step 3: Evaluate or Rank the Risk
 * **Visualizing The Dashboard:** Translated the complex statistical outputs (like 1-CDF probabilities) into intuitive visual formats (`Matplotlib`/`Seaborn`). Plotted the dynamic quantitative risk alongside qualitative risks onto a unified Corporate Risk Heatmap to evaluate severity and likelihood.
 * **A future Risk Forecast using Monte Carlo Simulation:**
-  ![Risk Forecast](https://github.com/pklinh29/Risk_Management_of_Hataphar_Project/blob/c777832997d4f17438c8e2453a5c7359df0e50e9/Machine%20Age%20Impact)
+  ![Risk Forecast](https://github.com/pklinh29/Risk_Management_of_Hataphar_Project/blob/96797124a98ca9691282cbface4f5d38a933ccad/Future%20Risk%20Forecast%20(%20Monte%20Carlo))
   
 * **A machine age impact forecast (ML discovery):**
   ![Machine age impact](https://github.com/pklinh29/Risk_Management_of_Hataphar_Project/blob/c777832997d4f17438c8e2453a5c7359df0e50e9/Machine%20Age%20Impact)
