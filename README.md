@@ -1,4 +1,4 @@
-# 📊 Data-Driven Corporate Risk Portfolio: Strategy & Monte Carlo Simulation
+# Data-Driven Corporate Risk Portfolio: Strategy & Monte Carlo Simulation
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 ![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Scikit--Learn-orange)
@@ -14,7 +14,7 @@
 
 ---
 
-## 🌍 Context <a name="context"></a>
+## Context <a name="context"></a>
 
 In the highly regulated and volatile pharmaceutical manufacturing industry, enterprises face a barrage of risks from multiple fronts. Externally, macro-economic shocks, strict regulatory updates (e.g., EU-GMP compliance), and supply chain disruptions constantly threaten stability. Internally, aging infrastructure and human skill gaps create operational bottlenecks. Left unchecked, these risks compound, leading to severe SLA penalties, loss of market share, and critical reputational damage.
 
@@ -35,16 +35,10 @@ To ensure the project aligns perfectly with business objectives rather than just
    * **Value Chain Analysis:** To pinpoint internal vulnerabilities across primary and support activities. This systemic scan successfully highlighted the critical weakness in our Inbound Logistics and Operations, pointing directly to the Production Delay Risk.
 
 ---
-## 🚀 Implementation <a name="implementation"></a>
+## Implementation <a name="implementation"></a>
 
 The project workflow is structured into 4 main phases based on modern ISO 31000 Risk Management standards, bridging qualitative strategy with quantitative Data Science.
 
-### 🛠 Tech Stack
-* **Language:** Python
-* **Data Analysis:** `Pandas`, `NumPy`
-* **Machine Learning:** `Scikit-Learn`
-* **Simulation & Statistics:** `SciPy`
-* **Visualization:** `Matplotlib`, `Seaborn`
 
 ### 📋 Workflow Execution
 
@@ -73,10 +67,10 @@ Designed specific, actionable intervention measures:
 * **Risk Treatment Plan (4T Strategy):**
   * **Tolerate:** Accept minor variances with buffer safety stocks.
   * **Terminate:** Refuse impossible deadlines exceeding current capacity.
-  * **Transfer:** Outsource excess capacity to OEM partners during peak demand.
+  * **Transfer:** Outsource excess capacity to OEM (Original Equipment Manufacturer) partners during peak demand.
   * **Treat:** (Primary focus) Implement Predictive Maintenance and cross-training to directly mitigate the ML-discovered root causes.
 
-### 📈 Project Outputs
+#### Step 5: Monitor and Review The Risk
 To ensure continuous improvement, the project established a post-treatment framework:
 * **Monitor:** Designed a KRI (Key Risk Indicator) tracking mechanism focusing specifically on **Batch Release Time** on a daily and weekly basis.
 * **Review:** Proposed a periodic evaluation system (running the simulation script every 6 months) to mathematically verify the effectiveness of the deployed solutions.
@@ -93,14 +87,22 @@ This project delivers exactly what executive management expects from a robust En
 
 ---
 
-## 🏆 Individual Achievements <a name="individual-achievements"></a>
+## Individual Achievements <a name="individual-achievements"></a>
 
-Through the execution of this end-to-end project, I have successfully:
+Through the execution of this end-to-end project, I have developed a practical understanding of how data science can solve real-world operational challenges. Key takeaways include:
 
-* **Bridged the Gap between Strategy and Data Science:** Demonstrated the rare ability to translate high-level business frameworks (PESTLE, 5 Forces, Value Chain) into actionable Python code and statistical models.
-* **Mastered Advanced Simulation Techniques:** Gained deep, hands-on proficiency in Monte Carlo simulations, Normal Distributions, and utilizing Machine Learning (`Scikit-Learn`) for root cause discovery rather than just basic prediction.
-* **Enhanced Executive Communication:** Developed the acumen to convert complex statistical outputs (like 1-CDF percentages) into standard corporate formats (1-5 Likert scales) and present them via clear, executive-ready visualizations (`Matplotlib/Seaborn`).
-* **Executed Full-Cycle Project Management:** Successfully navigated the entire ISO 31000 Risk Management process—from initial identification and deep-dive analysis to strategy formulation (4T) and establishing monitoring mechanisms.
+1.Bridging Strategic Frameworks with Data Science: Learned how to transition from high-level qualitative business analysis (PESTLE, Porter’s 5 Forces, Value Chain) into actionable quantitative models, realizing that data science is most powerful when guided by business context.
+
+2.Deepening Proficiency in Simulation & Machine Learning: Gained hands-on experience in using Python libraries to decode operational bottlenecks:
+
+  - Utilized NumPy and Pandas to process and simulate complex historical data environments.
+  
+  - Applied Scikit-Learn (Linear Regression) not just for basic forecasting, but specifically for Root Cause Discovery to identify hidden relationships between variables (e.g., Machine Age vs. Delay Time).
+  
+  - Employed SciPy and NumPy to run Monte Carlo simulations (10,000 iterations), shifting my analytical perspective from deterministic ("what happened") to probabilistic ("what is the likelihood of failure").
+
+3.Cultivating a Strong Risk Management Mindset: Adopted the comprehensive ISO 31000 framework, understanding that Risk Management is an iterative cycle (Identify → Analyze → Evaluate → Treat → Monitor), rather than a one-time calculation.
+
+4.Refining Executive Communication via Data Visualization: Improved my ability to translate complex statistical outputs (such as 1-CDF probabilities) into intuitive, standard corporate formats (1-5 Likert scales). I practiced using Matplotlib and Seaborn to design a unified Risk Portfolio Heatmap that communicates severity clearly to non-technical stakeholders (e.g., the C-suite).
 
 ---
-*Developed as a comprehensive Case Study for the Risk Management Course (20251).*
